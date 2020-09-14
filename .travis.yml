@@ -5,6 +5,8 @@ branches:
   - master
   - /^\d+\.\d+$/
 before_install:
+  - chmod +x ./gradlew
+  - chmod +x ./gradlew.bat
   - |-
     case $TRAVIS_OS_NAME in
       windows)
@@ -41,4 +43,4 @@ jobs:
       name: "OpenJDK 11"
       os: windows
       language: shell
-      script: dir
+      script: ./gradlew.bat build
