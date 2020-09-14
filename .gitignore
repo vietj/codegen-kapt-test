@@ -43,9 +43,7 @@ nbdist/
 
 out/
 build/
-gradlew
 .gradle/
-gradlew.bat
 .vertx/
 logs/
 
