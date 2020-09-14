@@ -16,7 +16,7 @@ repositories {
     jcenter()
     mavenCentral()
 }
-val vertxVersion = "3.9.2"
+val vertxVersion = "3.9.3-SNAPSHOT"
 dependencies {
 
     implementation(group = "io.vertx", name = "vertx-service-proxy", version = vertxVersion)
