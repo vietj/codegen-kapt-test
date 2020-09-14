@@ -38,9 +38,9 @@ jobs:
       name: "OpenJDK 8"
       os: linux
       jdk: openjdk8
-      script: ./gradlew -d build
+      script: ./gradlew build
     - stage: test
       name: "OpenJDK 11"
       os: windows
       language: shell
-      script: ./gradlew.bat -d build
+      script: ./gradlew.bat build
